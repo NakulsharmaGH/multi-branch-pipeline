@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git branch: 'main', url: 'https://github.com/NakulsharmaGH/helloworldpipeline.git'
+                git branch: 'new', url: 'https://github.com/NakulsharmaGH/helloworldpipeline.git'
             }
         }
 
